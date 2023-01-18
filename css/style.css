@@ -232,6 +232,7 @@ font-size: 2rem;
 /**sobre nosotros**/
 @media (min-width:768) {
      .sobre-nosotros{
+          align-items: center;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           column-gap: 2rem;
@@ -240,6 +241,8 @@ font-size: 2rem;
 .sobre-nosotros__imagen
 .sobre-nosotros__texto{
    flex-basis: 50%;
+   align-items: center;
+}
 }
 .sobre-nosotros{
      display: grid;
